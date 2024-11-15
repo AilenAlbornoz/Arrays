@@ -1,0 +1,26 @@
+body{
+    background-color: cadetblue;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: blanchedalmond;
+}
+
+#list {
+    list-style-type: none;
+    text-align:justify
+    padding-left 20px ;
+    color:darkblue; 
+}
+
+#list li::before {
+    content: '★'; 
+    left: 0;
+    color: gold; 
+}
